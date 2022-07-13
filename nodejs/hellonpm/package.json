@@ -1,0 +1,17 @@
+{
+  "name": "hellonpm",
+  "version": "1.0.0",
+  "description": "This is my first node js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "mern": "node index.js",
+    "start": "npm run mern"
+  },
+  "author": "Imon Islam",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "lodash": "^4.17.21"
+  }
+}
