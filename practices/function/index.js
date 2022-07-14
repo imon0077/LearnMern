@@ -74,3 +74,23 @@ function inputType2({name}){
 }
 
 inputType2({name: 'hello'});
+
+// Spread syntax (...) in function 
+console.log('=========== Spread syntax (...) in func =============');
+
+const inputType3 = (a, b , ...rest) => {
+    console.log('a', a, 'b', b);
+    console.log('rest', rest);
+}
+
+inputType3(1,2,3,4,5,6,7,8);
+
+// arguments in function 
+console.log('=========== arguments in func =============');
+
+function inputType4() {
+    console.log('arguments : ', arguments);
+    console.log('arguments : ', arguments[0], arguments[1], arguments[2]);
+}
+
+inputType4(1,2,3,4,5,6,7,8);
