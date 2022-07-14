@@ -26,3 +26,8 @@ let tempresult = newouter(10);
 console.log(tempresult);
 console.log(tempresult(20));
 
+console.log('=========== Self executing function =============');
+
+let selfFucn = (() => { return new Date(); })();
+
+console.log(selfFucn);
